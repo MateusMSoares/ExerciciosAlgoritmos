@@ -58,7 +58,7 @@ while True:
                 print(f"{i + 1} - {nome}")
             cliente = int(input("Selecione um cliente pelo número: "))
             index = cliente - 1 
-            print(f"{nome}: {milhas[index]} milhas")
+            print(f"{nomes[index]}: {milhas[index]} milhas")
     elif opcao == "4":
         print("\n")
         if len(milhas) == 0:
